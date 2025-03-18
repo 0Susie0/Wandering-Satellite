@@ -1,5 +1,4 @@
 ---
-Course website: https://comp.anu.edu.au/courses/laptop-ensemble/assessments/solo-performance/
 Composer: Susie Hu 
 YouTube Link: https://youtu.be/qtThWir2xh8
 ---
