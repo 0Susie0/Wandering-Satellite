@@ -1,0 +1,35 @@
+#N canvas 1377 372 614 526 10;
+#X obj 160 150 tgl 31 0 bass_on empty empty 17 7 0 10 #fcfcfc #000000
+#000000 1 1;
+#X text 140 40 Bass;
+#X obj 160 190 vsl 32 177 0 1 0 0 bass_vol empty empty 0 -9 0 10 #a99ffd
+#5133f7 #6044f9 0 1;
+#X obj 180 610 Bass;
+#X obj 280 190 vsl 32 177 0 0.5 0 0 beat_vol empty empty 0 -9 0 10
+#a6eaf9 #129ec7 #000000 0 1;
+#X obj 280 150 tgl 31 0 beat_on empty empty 17 7 0 10 #fcfcfc #000000
+#000000 1 1;
+#X text 330 40 Beat;
+#X obj 260 610 Beat;
+#X obj 190 190 vsl 32 177 0 1 0 0 chord_vol empty empty 0 -9 0 10 #8aa6f9
+#094fd0 #000000 0 1;
+#X obj 190 150 tgl 31 0 chords_on empty empty 17 7 0 10 #fcfcfc #000000
+#000000 1 1;
+#X obj 220 190 vsl 32 177 0 0.5 0 0 lead_vol empty empty 0 -9 0 10
+#85bdfc #0b68d0 #000000 0 1;
+#X obj 220 150 tgl 31 0 lead_on empty empty 17 7 0 10 #fcfcfc #000000
+#000000 1 1;
+#X obj 250 190 vsl 32 177 0 1 0 0 harmony_vol empty empty 0 -9 0 10
+#96d3fc #0a73c0 #000000 0 1;
+#X obj 250 150 tgl 31 0 harmony_on empty empty 17 7 0 10 #fcfcfc #000000
+#000000 1 1;
+#X text 180 40 Chords;
+#X text 230 40 Lead;
+#X text 270 40 Harmony;
+#X obj 220 110 bng 31 250 50 0 cymbal_on empty empty 17 7 0 10 #d0e9fd
+#ffffff #000000;
+#X obj 220 610 Chord;
+#X obj 300 610 Lead;
+#X obj 340 610 Harmony;
+#X obj 390 610 Cymbal;
+#X coords 0 0 1 1 85 60 0;
